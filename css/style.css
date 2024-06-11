@@ -15,7 +15,7 @@ img {
 /* GENERAL */
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -43,12 +43,12 @@ img {
     width: 50%;
 }
 
-.my-col-60 {
-    width: 60%;
+.my-col-65 {
+    width: 65%;
 }
 
-.my-col-40 {
-    width: 40%;
+.my-col-35 {
+    width: 35%;
 }
 
 .my-col-70 {
@@ -71,6 +71,17 @@ img {
     font-weight: bold;
 }
 
+/* TEXT STYLING */
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 2.7em;
+}
+
+p {
+    line-height: 30px;
+    font-size: 1.2em;
+}
 
 
 /* HEADER */
@@ -111,8 +122,6 @@ header .header-top nav ul > li > a {
 }
 
 .header-bottom .jumbo {
-    width: 100%;
-    font-size: 1.5em;
     text-align: center;
 }
 
@@ -121,23 +130,6 @@ header .header-top nav ul > li > a {
     color: black;
 }
 
-/* Header text */
-
-.jumbo h1 {
-    margin-bottom: 40px;
-}
-
-.jumbo p {
-    font-size: 22px;
-}
-
-.jumbo p:nth-of-type(2) {
-    padding-top: 10px;
-}
-
-.jumbo p:nth-of-type(3) {
-    padding-top: 10px;
-}
 
 /* Header buttons */
 
@@ -169,6 +161,8 @@ main > section {
 main > section:nth-child(even) {
     background-color: lightgray;
 }
+
+
 
 /* FOOTER */
 
@@ -210,7 +204,7 @@ footer .last-container > * {
     min-height: 300px;
 } */
 
-.debug main section .my-row .my-col-60 {
+/* .debug main section .my-row .my-col-60 {
     background-color: #1E90FF;
     border: 2px dashed black;
     min-height: 400px;
@@ -219,8 +213,8 @@ footer .last-container > * {
 .debug main section .my-row .my-col-40 {
     background-color: #FFC0CB;
     border: 2px dashed black;
-    min-height: 400px;
-}
+    min-height: 400px; */
+
 
 .debug .box-green {
     background-color: green;
