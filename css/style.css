@@ -187,8 +187,59 @@ footer {
     background-color: #23272A;
 }
 
+footer .container {
+    margin-top: 30px;
+}
+
+.footer-top h1 {
+    color:#7289DA;
+    font-size: 2rem;
+}
+
+.lingua img {
+    max-width: 25px;
+}
+
+.lingua {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.lingua > p {
+    font-size: 1rem;
+}
+
+.icons {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.my-col-25 ul li:first-child {
+    color: #7289DA;
+}
+
+.my-col-25 li {
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+
+footer .footer-top .my-col-25 nav ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
 footer .footer-top {
     padding: 20px 0;
+
 }
 
 footer .footer-bottom {
@@ -196,59 +247,25 @@ footer .footer-bottom {
 }
 
 footer hr {
-    border-color: white;
+    border-color: #7289DA;
 }
+
 
 footer .last-container {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
-    background-color:#7FFFD4
+    align-items: flex-start;
+    margin-top: -30px;
+    padding-bottom: 30px;
 }
 
-footer .last-container > * {
-    background-color: pink;
-    border: 2px dashed black;
-    padding: 10px;
+.last-container button > a {
+    color: white;
+    text-decoration: none;
 }
 
-/* DEBUG */
-
-
-/* .debug .header-bottom .jumbo {
-    background-color: #EE82EE;
-    border: 2px dashed black;
-    min-height: 300px;
-} */
-
-/* .debug main section .my-row .my-col-60 {
-    background-color: #1E90FF;
-    border: 2px dashed black;
-    min-height: 400px;
-}
-
-.debug main section .my-row .my-col-40 {
-    background-color: #FFC0CB;
-    border: 2px dashed black;
-    min-height: 400px; */
-
-
-/* .debug .box-green {
-    background-color: green;
-    min-height: 700px;
-    border: 2px dashed black;
-} */
-
-.debug footer .footer-top .container > .my-row > * {
-    background-color: #F08080;
-    min-height: 450px;
-    border: 2px dashed black;
-}
-
-.debug footer .footer-top .container > .my-row .my-row > * {
-    background-color: #20B2AA;
-    min-height: 450px;
-    border: 2px dashed white;
+.last-container button {
+    background-color: #7289DA;
 }
 
 
