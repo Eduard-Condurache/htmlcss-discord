@@ -1,0 +1,184 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-col-25 {
+    width: 25%;
+}
+
+.my-col-50 {
+    width: 50%;
+}
+
+.my-col-60 {
+    width: 60%;
+}
+
+.my-col-40 {
+    width: 40%;
+}
+
+.my-col-70 {
+    width: 70%;
+}
+
+.my-col-30 {
+    width: 30%;
+}
+
+
+
+.text-align-right {
+    text-align: right;
+}
+
+
+
+/* HEADER */
+
+header {
+    background-color: #ADD8E6;
+}
+
+header .header-top {
+    height: 60px;
+    padding: 10px 0;
+}
+
+
+.debug header .header-top > .container > .my-row > * {
+    padding: 5px;
+}
+
+header .header-top nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header .header-top nav ul > li > a {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header-bottom {
+    padding: 40px 0;
+}
+
+.header-bottom .jumbo {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* MAIN */
+
+main > section {
+    padding: 40px 0;
+}
+
+main > section:nth-child(even) {
+    background-color: lightgray;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #23272A;
+}
+
+footer .footer-top {
+    padding: 20px 0;
+}
+
+footer .footer-bottom {
+    padding-top: 20px;
+}
+
+footer hr {
+    border-color: white;
+}
+
+footer .last-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color:#7FFFD4
+}
+
+footer .last-container > * {
+    background-color: pink;
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+/* DEBUG */
+
+.debug .header-top {
+    background-color: #ADD8E6;
+}
+
+.debug header .header-top > .container > .my-row {
+    background-color: #DAA520;
+}
+
+.debug header .header-top > .container > .my-row > * {
+    border: 2px dashed black;
+}
+
+.debug .header-bottom {
+    background-color: #00008B;
+}
+
+.debug .header-bottom .jumbo {
+    background-color: #EE82EE;
+    border: 2px dashed black;
+    min-height: 300px;
+}
+
+.debug main section .my-row .my-col-60 {
+    background-color: #1E90FF;
+    border: 2px dashed black;
+    min-height: 400px;
+}
+
+.debug main section .my-row .my-col-40 {
+    background-color: #FFC0CB;
+    border: 2px dashed black;
+    min-height: 400px;
+}
+
+.debug .box-green {
+    background-color: green;
+    min-height: 700px;
+    border: 2px dashed black;
+}
+
+.debug footer .footer-top .container > .my-row > * {
+    background-color: #F08080;
+    min-height: 450px;
+    border: 2px dashed black;
+}
+
+.debug footer .footer-top .container > .my-row .my-row > * {
+    background-color: #20B2AA;
+    min-height: 450px;
+    border: 2px dashed white;
+}
+
+
