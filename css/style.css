@@ -14,6 +14,14 @@ img {
 
 /* GENERAL */
 
+.wave-line {
+    content: "";
+    width: 100%;
+    height: 100px;
+    background: url(../img/wave.svg);
+    margin: -60px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -69,6 +77,10 @@ img {
     padding: 15px 15px 15px;
     background-color: white;
     border: none;
+}
+
+section {
+    margin-top: 20px;
 }
 
 /* TEXT STYLING */
@@ -231,6 +243,10 @@ footer .container {
     list-style-type: none;
 }
 
+.my-col-25 ul {
+    padding: 0 20px;
+}
+
 
 footer .footer-top .my-col-25 nav ul > li > a {
     text-decoration: none;
@@ -258,6 +274,8 @@ footer .last-container {
     margin-top: -30px;
     padding-bottom: 30px;
 }
+
+
 
 .last-container button > a {
     color: white;
